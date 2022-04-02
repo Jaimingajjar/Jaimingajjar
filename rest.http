@@ -1,0 +1,23 @@
+GET http://localhost:3000
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDg4MzUzNzQsImV4cCI6MTY0ODgzODk3NCwiYXVkIjoiNjI0NzFlNTg2ZWNkMjg1MzA4ZTc0ZTg4IiwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.VZ8T7yDg2YCPKB5I10jLm7PsoYe9JamB7n83kjn-vAU
+
+###Login Route
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+  "email": "jaimin@gmail.com",
+  "password": "1234"
+}
+
+
+###Register Route
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+  "email": "jaimin@gmail.com",
+  "password": "1234"
+}
+
+
